@@ -10,7 +10,7 @@ class chats(models.Model):
     recipient = models.CharField(max_length=250)
     message = models.TextField()
     date_sent = models.DateField(auto_now_add=True)
-    date
+    dat
 
 
     def __str__(self):
